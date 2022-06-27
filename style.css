@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.sidebar {
+  background-color: lightgreen;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.header {
+  background-color: lightblue;
+  grid-column: span 2;
+}
+
+.left {
+  background-color: lightcoral;
+  grid-column-start: 2;
+}
+
+.right {
+  background-color: rgb(253, 253, 150);
+  grid-column-start: 3;
+}
