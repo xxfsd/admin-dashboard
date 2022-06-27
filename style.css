@@ -20,12 +20,24 @@
   grid-column: span 2;
 }
 
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .left {
   background-color: lightcoral;
   grid-column-start: 2;
+}
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
 }
 
 .right {
   background-color: rgb(253, 253, 150);
   grid-column-start: 3;
 }
+
+
