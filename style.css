@@ -15,12 +15,17 @@
   grid-row-end: 3;
 }
 
-.header {
-  background-color: lightblue;
-  grid-column: span 2;
+.top-sidebar-link-block {
+  display: grid;
+}
+
+.lower-sidebar-link-block {
+  display: grid;
 }
 
 .header {
+  background-color: lightblue;
+  grid-column: span 2;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -31,8 +36,14 @@
 }
 
 .projects-wrapper {
+  background-color: aliceblue;
   display: grid;
-  grid-template-columns: repeat(2, 1fr)
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.projects {
+
+
 }
 
 .right {
